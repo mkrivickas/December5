@@ -1,0 +1,151 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Base grid setup */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(11, 40px); /* 11 columns */
+  grid-gap: 5px;
+  width: fit-content;
+  margin: auto;
+  background-color: #a9a9a9; /* Dark background for contrast */
+  padding: 10px;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+  background-color: #c6c6c6; /* Default grey cells */
+  border-radius: 8px;
+}
+
+/* Christmas tree shape */
+
+/* Tree - Level 1 (Top) */
+.grid div:nth-child(6) {
+  background-color: green; /* Tree color */
+}
+
+/* Tree - Level 2 */
+.grid div:nth-child(17) {
+  background-color: green;
+}
+
+/* Tree - Level 3 */
+.grid div:nth-child(27),
+.grid div:nth-child(28),
+.grid div:nth-child(29) {
+  background-color: green;
+}
+
+/* Tree - Level 4 */
+.grid div:nth-child(37),
+.grid div:nth-child(38),
+.grid div:nth-child(39),
+.grid div:nth-child(40),
+.grid div:nth-child(41),
+.grid div:nth-child(83) {
+  background-color: green;
+}
+
+/* Tree - Level 5 (Widest layer) */
+.grid div:nth-child(48),
+.grid div:nth-child(49),
+.grid div:nth-child(50),
+.grid div:nth-child(51),
+.grid div:nth-child(52) {
+  background-color: green;
+}
+
+/* Tree - Level 6 (Widest layer) */
+.grid div:nth-child(58),
+.grid div:nth-child(59),
+.grid div:nth-child(60),
+.grid div:nth-child(61),
+.grid div:nth-child(62),
+.grid div:nth-child(63),
+.grid div:nth-child(64) {
+  background-color: green;
+}
+
+/* Tree - Level 7 (Widest layer) */
+.grid div:nth-child(68),
+.grid div:nth-child(69),
+.grid div:nth-child(70),
+.grid div:nth-child(71),
+.grid div:nth-child(72),
+.grid div:nth-child(73),
+.grid div:nth-child(74),
+.grid div:nth-child(75),
+.grid div:nth-child(76) {
+  background-color: green;
+}
+
+/* Tree - Level 8 (Widest layer) */
+.grid div:nth-child(79),
+.grid div:nth-child(80),
+.grid div:nth-child(81),
+.grid div:nth-child(82),
+.grid div:nth-child(83),
+.grid div:nth-child(84),
+.grid div:nth-child(85),
+.grid div:nth-child(86),
+.grid div:nth-child(87) {
+  background-color: green;
+}
+
+/* Tree - Level 9 (Widest layer) */
+.grid div:nth-child(89),
+.grid div:nth-child(90),
+.grid div:nth-child(91),
+.grid div:nth-child(92),
+.grid div:nth-child(93),
+.grid div:nth-child(94),
+.grid div:nth-child(95),
+.grid div:nth-child(96),
+.grid div:nth-child(97),
+.grid div:nth-child(98),
+.grid div:nth-child(99) {
+  background-color: green;
+}
+
+/* Tree - Level 10 (Widest layer) */
+.grid div:nth-child(100),
+.grid div:nth-child(101),
+.grid div:nth-child(102),
+.grid div:nth-child(103),
+.grid div:nth-child(104),
+.grid div:nth-child(105),
+.grid div:nth-child(106),
+.grid div:nth-child(107),
+.grid div:nth-child(108),
+.grid div:nth-child(109),
+.grid div:nth-child(110) {
+  background-color: green;
+}
+
+/* Tree Decorations */
+.grid div:nth-child(28),
+.grid div:nth-child(40),
+.grid div:nth-child(61),
+.grid div:nth-child(70),
+.grid div:nth-child(76),
+.grid div:nth-child(82),
+.grid div:nth-child(85),
+.grid div:nth-child(90),
+.grid div:nth-child(98),
+.grid div:nth-child(103),
+.grid div:nth-child(106) {
+  background-color: yellow; /* Ornament color */
+}
+
+/* Tree Trunk */
+.grid div:nth-child(115),
+.grid div:nth-child(116),
+.grid div:nth-child(117) {
+  background-color: #2a1401; /* Tree trunk */
+}
